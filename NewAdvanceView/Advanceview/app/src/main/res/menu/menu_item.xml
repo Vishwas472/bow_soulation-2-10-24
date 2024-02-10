@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/New_groups"
+        android:title="New Groups" />
+
+    <item
+        android:id="@+id/Broad_Caste"
+        android:title="new broad Caste" />
+
+
+    <item
+        android:id="@+id/Linked_messge"
+        android:title="Linked messge" />
+
+    <item
+        android:id="@+id/Stragged_Message"
+        android:title="Stragged Message" />
+
+
+    <item
+        android:id="@+id/Payment"
+        android:title="Payment" />
+
+
+    <item
+        android:id="@+id/Setting"
+        android:title="Setting" />
+
+</menu>
+

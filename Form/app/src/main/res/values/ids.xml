@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtname" type="id" />
+    <item name="dob" type="id" />
+    <item name="caLL" type="id" />
+    <item name="EMAIL" type="id" />
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="White">#E3F6FF</color>
+    <color name="Red">#FF0303</color>
+    <color name="Yellow">#FFB100</color>
+    <color name="ffe1a3">#FFE1A3</color>
+
+    <color name="Forground_grey">#42574F4F</color>
+    <color name="THumb_grey">#D5F8EFEF</color>
+    <color name="Thumb_green">#46bdbf</color>
+    <color name="colorPrimary">#0f9d58</color>
+    <color name="colorPrimaryDark">#006d2d</color>
+    <color name="colorAccent">#55cf86</color>
+</resources>

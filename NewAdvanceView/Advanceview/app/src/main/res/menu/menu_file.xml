@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:ignore="HardcodedText">
+    <group>
+
+        <item
+            android:id="@+id/Home111"
+            android:icon="@drawable/baseline_home_24"
+            android:title="home"/>
+
+        <item
+            android:id="@+id/calender111"
+            android:icon="@drawable/baseline_calendar_view_month_24"
+            android:title="calender" />
+
+        <item
+            android:id="@+id/Category111"
+            android:icon="@drawable/baseline_add_card_24"
+            android:title="Add category" />
+
+        <item
+            android:id="@+id/payment111"
+            android:icon="@drawable/baseline_payment_24"
+            android:title="Payment" />
+
+        <item
+            android:id="@+id/reports111"
+            android:icon="@drawable/baseline_report_24"
+            android:title="Exported Reports" />
+
+
+    </group>
+    <item
+        android:title="Communication">
+
+        <menu>
+
+
+            <item
+                android:id="@+id/About111"
+                android:icon="@drawable/baseline_feedback_24"
+                android:title="Feedback"/>
+            <item
+                android:id="@+id/Share111"
+                android:icon="@drawable/baseline_share_24"
+                android:title="Share With Friends"/>
+
+            <item
+                android:id="@+id/privacy111"
+                android:icon="@drawable/baseline_privacy_tip_24"
+                android:title="Privacy"/>
+
+        </menu>
+
+    </item>
+</menu>

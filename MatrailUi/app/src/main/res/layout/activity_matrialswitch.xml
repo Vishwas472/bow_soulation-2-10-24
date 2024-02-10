@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Custom.MatrialswitchActivity"
+    tools:ignore="MissingClass">
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/myMaterialSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Enable Feature"
+        android:theme="@style/SCBSwitch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="155dp" />
+
+
+    <Switch
+        android:id="@+id/myMaterialSwitch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:track="@drawable/track_sector"
+        android:checked="true"
+        android:padding="@dimen/_10sdp"
+        android:thumb="@drawable/thumb_sector"
+
+        />
+
+    <Switch
+        android:id="@+id/myMaterialSwitch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:track="@drawable/track_sector"
+        android:checked="true"
+        android:padding="@dimen/_10sdp"
+        android:thumb="@drawable/baseline_brightness_1_24"
+        />
+
+    <Switch
+        android:id="@+id/myMaterialSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:theme="@style/SwitchTheme"
+        tools:ignore="DuplicateIds" />
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MatrailUi" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Base.Theme.MatrailUi3" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
+    </style>
+
+    <style name="Theme.MatrailUi" parent="Base.Theme.MatrailUi" />
+    <style name="Base.Theme.Android201" parent="Theme.AppCompat.DayNight.DarkActionBar"/>
+
+    <style name="Widget.App.Button.OutlinedButton.IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#46bdbf</item>
+
+        <item name="colorSwitchThumbNormal">#f1f1f1
+        </item>
+
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+
+    <style name="Colour_Checkbox" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@android:color/holo_red_light</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+    </style>
+    
+    <style name="togletheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/material_dynamic_primary0</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+
+    </style>
+    
+    
+    <style name="SwitchTheme">
+        <item name="android:colorControlActivated">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="Button.White" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/red1</item>
+    </style>
+</resources>

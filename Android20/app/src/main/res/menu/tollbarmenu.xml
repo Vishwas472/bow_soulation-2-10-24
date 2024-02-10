@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Demo"
+        android:icon="@drawable/baseline_create_new_folder_24"
+        android:title="New Groups"
+        app:showAsAction="ifRoom"/>
+<!--    /jo uper menu joy teni mate -->
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="setting"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/open_save"
+        android:icon="@drawable/baseline_save_alt_24"
+        android:title="Save"
+        app:showAsAction="ifRoom"/>
+</menu>
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "622041100165",
+    "project_id": "hirvachat",
+    "storage_bucket": "hirvachat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622041100165:android:0bed3b87816efc10bb5eec",
+        "android_client_info": {
+          "package_name": "com.example.hirvachat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCSDCqjFcWDsc6hPGfpakAPvHkKjBlmXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="contecat_number">Contecat Number</string>
+    <string name="contecat_name">Contecat Name</string>
+    <string-array name="countries">
+        <item>SELECT LANAGUGES </item>
+        <item>USA</item>
+        <item>Canada</item>
+        <item>UK</item>
+        <item>Germany</item>
+    </string-array>
+    <!--        &lt;!&ndash; Add more coun-->
+
+    <string-array name="spinner_items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <!-- Add more items as needed -->
+    </string-array>
+</resources>

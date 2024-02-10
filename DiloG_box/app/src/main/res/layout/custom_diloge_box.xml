@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_height="150dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="20dp">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CONFIRM LOGOUT"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are You Sure Do You Want To Logout ?"
+                android:textColor="@color/silver"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="15dp">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CANCEL"
+                android:background="@drawable/btn_2"
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/btncnacel"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Logout"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@drawable/btn_1"
+
+                    android:id="@+id/Logout"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

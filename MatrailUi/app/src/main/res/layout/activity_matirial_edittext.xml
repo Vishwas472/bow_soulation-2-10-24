@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Custom.MatirialEdittextActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:hint="E-mail"
+        android:textColorHint="#365486"
+        app:boxStrokeColor="#0F1035"
+        app:counterEnabled="true"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:helperTextEnabled="false"
+        app:hintAnimationEnabled="false"
+        app:hintEnabled="false"
+        app:hintTextColor="#365486"
+        app:placeholderText="ex:abc@gmail.com"
+        app:startIconDrawable="@drawable/baseline_people_24"
+        app:startIconTint="#365486">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textEmailAddress|textAutoCorrect" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutpassowrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:hint="Password"
+        android:textColorHint="#365486"
+        app:boxStrokeColor="#0F1035"
+        app:counterEnabled="true"
+        app:counterMaxLength="8"
+        app:endIconMode="password_toggle"
+        app:helperText="Enter a Strong Password"
+        app:helperTextEnabled="true"
+        app:helperTextTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:helperTextTextColor="#0F1035"
+        app:hintTextColor="#365486"
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        app:startIconTint="#365486">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>

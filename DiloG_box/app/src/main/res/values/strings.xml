@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="horiztioal_progreesbar">Horiztioal Progreesbar</string>
+    <string name="spinner_progreesbar">Spinner Progreesbar</string>
+</resources>
